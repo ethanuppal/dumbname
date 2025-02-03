@@ -7,8 +7,8 @@
 use std::{env, fs};
 
 use camino::Utf8PathBuf;
+use logos::Logos;
 use proc_macro::TokenStream;
-use spade_parser::Logos;
 use verilator::PortDirection;
 use verilog_macro_builder::{build_verilated_struct, MacroArgs};
 
